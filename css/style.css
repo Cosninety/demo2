@@ -1,0 +1,62 @@
+/* @font-face {
+   font-family: 'Falange-Punk';
+   src: url('fonts/Falange-Punk.woff') format('woff'),
+        url('fonts/Falange-Punk.ttf') format('woff');
+    } */
+
+/* 
+@font-face {
+    font-family: 'Falange-Punk';
+    src: url('fonts/Falange-Punk.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: 'Yusei';
+    src: url('fonts/YuseiMagic-Regular.ttf') format('truetype');
+}
+
+#font1 {
+    text-align: left;
+    font-family: 'Yusei';
+    background: url("https://niladuranza.github.io/amairtz/images/text_background_pink.png");
+    /* background: url("../images/text_background_yellow.png") ; */
+    background-repeat: no-repeat;
+    /* See https://www.w3schools.com/cssref/css3_pr_background-size.asp  for more options*/
+    /* Contain: Resize the background image to be as big as possible to make sure the image is fully visible without distorting */
+    background-size: contain;
+    background-position: left;
+}
+
+#font2 {
+    font-family: 'Falange-Punk';
+}
+
+
+h1 {
+    color: blue;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="35" style="font-size: 20px;"><text y="25">\1F602</text></svg>'    ), auto;
+}
+
+
+body {
+    background-color:teal;
+    height: 100vh;
+    /* cursor: cell; */
+
+    /* cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="35" style="font-size: 20px;"><text y="25">\1F602</text></svg>'    ), auto; */
+
+    /* use css code from https://unicode-table.com/en/1F607/ */
+     /* cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="35" style="font-size: 20px;"><text y="25">\1F607</text></svg>'), auto; */
+
+    /* cursor: url("cssImages/star3.png"), auto;  */
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.font1 {
+    font: whateverthe;
+}
